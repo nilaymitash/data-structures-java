@@ -3,7 +3,7 @@ Data structures implemented in Java
 
 Pre-req: Any Java version should be fine since this project contains basic core java programs.
 
-You can use an IDE, however, for learning purposes I recommend using a text-editor and terminal/command prompt.
+You can use an IDE, however for learning purposes, I recommend using a text-editor and terminal/command prompt.
 
 You can also use VS Code without any Java extensions. It will highlight keywords but will not auto-complete anything.
 
