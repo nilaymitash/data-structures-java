@@ -68,12 +68,13 @@ public class ArrayOps {
         }
     }
 
-    //add a fruit at last empty spot - also why would you do that? that's so inefficient
+    //add a fruit at last empty spot
     private static void addFruitAtLast(String fruitName) {
         int lastEmptyIndex = -1;
-        for(int i = 0; i < fruits.length; i++) {
+        for(int i = fruits.length - 1; i > -1; i--) {
             if(fruits[i] == null) {
                 lastEmptyIndex = i;
+                break;
             }
         }
 
